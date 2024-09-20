@@ -33,11 +33,7 @@ const TechnologyList = [
         sIcon: cnIcon3,
         title: 'PostgreSQL',
     },
-    {
-        Id: '4',
-        sIcon: cnIcon4,
-        title: 'Swift',
-    },
+
     {
         Id: '5',
         sIcon: cnIcon5,
@@ -59,16 +55,6 @@ const TechnologyList = [
         title: 'Java',
     },
     {
-        Id: '9',
-        sIcon: cnIcon9,
-        title: 'Ruby',
-    },
-    {
-        Id: '10',
-        sIcon: cnIcon10,
-        title: 'C++',
-    },
-    {
         Id: '11',
         sIcon: cnIcon11,
         title: 'React Js',
@@ -76,7 +62,7 @@ const TechnologyList = [
     {
         Id: '12',
         sIcon: cnIcon12,
-        title: 'Laraval',
+        title: 'Laravel',
     },
 ]
 
@@ -179,7 +165,7 @@ const TechnologySection = (props) => {
                     </TabPane>
                     <TabPane tabId="3">
                         <div className="web_development_technologies row justify-content-center">
-                            {TechnologyList.slice(5, 12).map((technology, cnt) => (
+                            {TechnologyList.slice(4, 6).map((technology, cnt) => (
                                 <div className="col-lg-2 col-md-3 col-sm-4 col-6" key={cnt}>
                                     <div className="iconbox_block text-center p-0 shadow-none bg-transparent">
                                         <div className="iconbox_icon">
