@@ -20,19 +20,19 @@ const AboutUsPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'About Us'} pagesub={'More Techco 😃'} pageTop={'About'}/>
+                <PageTitle pageTitle={'О нас'} pagesub={'Codeco 😃'} pageTop={'Больше о'} />
                 <section className="intro_about_section section_space bg-light">
                     <div className="intro_about_content">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="image_wrap">
-                                        <img src={aImg} alt="Techco - About " />
+                                        <img src={aImg} alt="O - Codeco" />
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="image_wrap position-relative">
-                                        <img src={aImg2} alt="Techco - About" />
+                                        <img src={aImg2} alt="O - Codeco" />
                                         <button className="video_btn ripple_effect" onClick={() => setOpen(true)}>
                                             <span className="btn_icon">
                                                 <i className="fa-solid fa-play"></i>
@@ -48,16 +48,16 @@ const AboutUsPage = (props) => {
                             <div className="row justify-content-lg-between">
                                 <div className="col-lg-4">
                                     <div className="heading_focus_text">
-                                        About
-                                        <span className="badge bg-secondary text-white">Techco 🙂</span>
+                                        О
+                                        <span className="badge bg-secondary text-white">Codeco 🙂</span>
                                     </div>
                                     <h2 className="heading_text mb-0">
-                                        We Provide You Flexible Services
+                                        Мы предоставляем вам гибкие услуги
                                     </h2>
                                 </div>
                                 <div className="col-lg-6">
                                     <p className="heading_description mb-0">
-                                        At Techco, we pride ourselves on offering dynamic and  IT  to suit your specific requirements. Our flexible approach means we can  adjust our offerings to accommodate your evolving needs, whether you require comprehensive IT infrastructure support, strategic consultancy, software development
+                                        В Techco мы гордимся тем, что предлагаем динамичные IT-услуги, соответствующие вашим специфическим требованиям. Наш гибкий подход позволяет нам адаптировать наши предложения в соответствии с вашими изменяющимися потребностями, будь то комплексная поддержка IT-инфраструктуры, стратегическое консультирование или разработка программного обеспечения.
                                     </p>
                                 </div>
                             </div>

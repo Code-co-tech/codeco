@@ -18,19 +18,19 @@ const ProjectSection = (props) => {
                     <div className="row align-items-end">
                         <div className="col-lg-7">
                             <div className="heading_focus_text">
-                                <span className="badge bg-secondary text-white">Crafting</span>
-                                Success With 😍 Project
+                                <span className="badge bg-secondary text-white">Создаём</span>
+                                успех с помощью проектов 😍
                             </div>
                             <h2 className="heading_text">
-                                Our Recent Best Works
+                                Наши недавние лучшие работы
                             </h2>
                             <p className="heading_description mb-0">
-                                Our recent projects highlight our expertise in delivering tailored solutions that meet the unique needs and objectives of our clients,custom software.
+                                Наши недавние проекты подчеркивают нашу экспертизу в предоставлении индивидуальных решений, которые соответствуют уникальным потребностям и целям наших клиентов, включая кастомное программное обеспечение.
                             </p>
                         </div>
                         <div className="col-lg-5 d-none d-lg-flex justify-content-end">
                             <Link onClick={ClickHandler} to={'/portfolio'} className="btn btn-primary">
-                                <span className="btn_label" data-text="All Works">All Works</span>
+                                <span className="btn_label" data-text="Все работы">Все работы</span>
                                 <span className="btn_icon">
                                     <i className="fa-solid fa-arrow-up-right"></i>
                                 </span>
@@ -45,9 +45,9 @@ const ProjectSection = (props) => {
                     modules={[Pagination, A11y]}
                     slidesPerView={1}
                     loop={true}
-                    spaceBetween= {30}
-                    allowTouchMove= {true}
-                    centeredSlides= {true}
+                    spaceBetween={30}
+                    allowTouchMove={true}
+                    centeredSlides={true}
                     pagination={{ clickable: true }}
                     speed={400}
                     parallax={true}

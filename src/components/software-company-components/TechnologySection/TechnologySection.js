@@ -92,13 +92,13 @@ const TechnologySection = (props) => {
 
     return (
 
-        <div className="section_space">
+        <div >
             <div className="heading_block text-center">
                 <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg})` }}>
-                    Our Technologies
+                    Наши технологии
                 </div>
                 <h2 className="heading_text mb-0">
-                    We Use <mark>Technologies</mark>
+                    Наши  <mark>технологии</mark>
                 </h2>
             </div>
 
@@ -140,13 +140,7 @@ const TechnologySection = (props) => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink
-                            className={classnames({ active: activeTab === '5' })}
-                            onClick={() => { toggle('5'); }}
-                        >
 
-                            Other Frameworks
-                        </NavLink>
                     </NavItem>
                 </Nav>
 

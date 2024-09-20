@@ -5,18 +5,18 @@ import sIcon3 from '../../images/icons/icon_dollar.svg'
 
 const Policy = [
     {
-        title: 'Expert Team Members',
-        subTitle: 'We take pride in assembling a diverse and highly skilled.',
+        title: 'Экспертная команда',
+        subTitle: 'Мы гордимся тем, что собрали разнообразную и высококвалифицированную команду.',
         icon: sIcon1,
     },
     {
-        title: 'Fastest Customer Service',
-        subTitle: 'We pride ourselves on providing the fastest customer service industry.',
+        title: 'Самый быстрый сервис поддержки клиентов',
+        subTitle: 'Мы гордимся тем, что предоставляем самый быстрый сервис поддержки клиентов в отрасли.',
         icon: sIcon2,
     },
     {
-        title: 'reasonable Pricing',
-        subTitle: 'We believe in providing reasonable pricing that offers exceptional.',
+        title: 'Разумные цены',
+        subTitle: 'Мы верим в установление разумных цен, которые предлагают исключительное качество.',
         icon: sIcon3,
     },
 
@@ -27,7 +27,7 @@ const Policy = [
 const PolicySection = (props) => {
 
     return (
-        <section className="policy_section">
+        <section className="policy_section py-5 mt-5">
             <div className="container">
                 <div className="row">
                     {Policy.map((policy, pitem) => (

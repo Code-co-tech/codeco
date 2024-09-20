@@ -5,18 +5,18 @@ import sIcon3 from '../../images/icons/icon_target.svg'
 
 const Policy = [
     {
-        title: 'Our History',
-        subTitle: 'Since 1997 we have been a visionary and a reliable software engineering partner for world-class brands. abbreviated as co.',
+        title: 'Наша история',
+        subTitle: 'С 1997 года мы являемся надежным иVisionary партнером в области программной инженерии для мировых брендов',
         icon: sIcon1,
     },
     {
-        title: 'Our Mission',
-        subTitle: 'A mission statement clarifies what the company wants to achieve, who they want to support, and why they want to support them. On the other hand',
+        title: 'Наша миссия',
+        subTitle: 'Миссия компании формулирует, чего она хочет достичь, кого она хочет поддерживать и почему. С другой стороны...',
         icon: sIcon2,
     },
     {
-        title: 'Our Vision',
-        subTitle: 'A vision statement for a company or organization focuses on the potential inherent in the companys future; its about what they intend to be how you',
+        title: 'Наша визия',
+        subTitle: 'Визионное заявление компании или организации сосредоточено на потенциале, заложенном в будущем компании;',
         icon: sIcon3,
     },
 

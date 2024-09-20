@@ -21,11 +21,11 @@ const TeamSection = (props) => {
             <div className="container">
                 <div className="heading_block text-center">
                     <div className="heading_focus_text">
-                        <span className="badge bg-secondary text-white">Our Expert</span>
-                        Team Members 😍
+                        Наша команда
+                        <span className="badge bg-secondary text-white">экспертов 😍</span>
                     </div>
                     <h2 className="heading_text mb-0">
-                        Top Skilled Experts
+                        Высококвалифицированные специалисты
                     </h2>
                 </div>
 
@@ -92,7 +92,7 @@ const TeamSection = (props) => {
                 <div className="container">
                     <div className="btns_group pb-0">
                         <Link className="btn btn-outline-light" to="/team">
-                            <span className="btn_label" data-text="Our All Experts">Our All Experts</span>
+                            <span className="btn_label" data-text="Наши все эксперты">Наши все эксперты</span>
                             <span className="btn_icon">
                                 <i className="fa-solid fa-arrow-up-right"></i>
                             </span>

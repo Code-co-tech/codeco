@@ -16,32 +16,13 @@ const Hero = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="it_solution_hero_content" style={{ backgroundImage: `url(${Bg1})` }}>
-                            <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span className="badge bg-secondary text-white">Are Techco</span></div>
+                            <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Привет <span className="badge bg-secondary text-white">мы Codeco</span></div>
                             <h1>
-                                Grow your Business Organic & IT Solution Technology
+                                Развивайте свой бизнес с помощью органических и IT-технологий
                             </h1>
                             <p>
-                                In today's competitive business, the demand for efficient and cost-effective IT solutions has never been more critical.
+                                В современных условиях конкурентного бизнеса потребность в эффективных и экономически выгодных IT-решениях как никогда актуальна.
                             </p>
-                            <ul className="btns_group unordered_list p-0 justify-content-start">
-                                <li>
-                                    <Link className="btn" to="/pricing">
-                                        <span className="btn_label" data-text="Get Started">Get Started</span>
-                                        <span className="btn_icon">
-                                            <i className="fa-solid fa-arrow-up-right"></i>
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <div className="review_short_info">
-                                        <div className="d-flex">
-                                            <img src={icon} alt="Techco - Trustpilot Review" />
-                                            <span>4.8</span>
-                                        </div>
-                                        <div className="review_counter">From <b>200+</b> reviews</div>
-                                    </div>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     <div className="col-lg-5">
@@ -51,9 +32,9 @@ const Hero = () => {
                             </li>
                             <li>
                                 <div className="worldwide_clients">
-                                    <div className="counter_value">150+</div>
+                                    <div className="counter_value">10+</div>
                                     <p>
-                                        Worldwide Country has lots of clients
+                                        Клиентов по всему миру у нас много
                                     </p>
                                     <ul className="avatar_group unordered_list">
                                         <li>
@@ -75,19 +56,19 @@ const Hero = () => {
                                 <ul className="categories unordered_list_block">
                                     <li>
                                         <Link to="/">
-                                            <span>Data Security</span>
+                                            <span>Безопасность данных</span>
                                             <i className="fa-solid fa-plus"></i>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
                                             <i className="fa-solid fa-plus"></i>
-                                            <span>Web Development</span>
+                                            <span>Разработка</span>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/">
-                                            <span>Analytics & Optimization</span>
+                                            <span>Аналитика</span>
                                             <i className="fa-solid fa-plus"></i>
                                         </Link>
                                     </li>
@@ -145,7 +126,7 @@ const Hero = () => {
                                                 </text>
                                             </svg>
                                             <p>
-                                                get 88% of the best services and growth business
+                                                Получите  лучших услуг и увеличьте свой бизнес
                                             </p>
                                         </div>
                                     </div>

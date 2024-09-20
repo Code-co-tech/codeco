@@ -13,14 +13,14 @@ const CtaSection = (props) => {
             <div className="container text-center">
                 <div className="heading_block text-white">
                     <h2 className="heading_text">
-                        Ready to Work, Let's Chat
+                        Готовы к сотрудничеству, давайте пообщаемся
                     </h2>
                     <p className="heading_description mb-0">
-                        Our team of experts is ready to collaborate with you every step of the way, from initial consultation to implementation.
+                        Наша команда экспертов готова сотрудничать с вами на каждом этапе — от первичной консультации до реализации проекта.
                     </p>
                 </div>
                 <Link onClick={ClickHandler} to="/contact" className="btn btn-primary">
-                    <span className="btn_label" data-text="Contact Us Today!">Contact Us Today!</span>
+                    <span className="btn_label" data-text="Свяжитесь с нами сегодня!">Свяжитесь с нами сегодня!</span>
                     <span className="btn_icon">
                         <i className="fa-solid fa-arrow-up-right"></i>
                     </span>

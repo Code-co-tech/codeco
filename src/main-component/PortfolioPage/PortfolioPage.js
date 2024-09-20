@@ -27,16 +27,15 @@ const PortfolioPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'Our Portfolio'} pagesub={'Portfolio 😍'} pageTop={'Our'} />
+                <PageTitle pageTitle={'Наше портфолио'} pagesub={'Портфолио 😍'} pageTop={'Наше'} />
                 <section className="portfolio_section section_space bg-light">
                     <div className="container">
                         <div className="filter_elements_nav">
                             <ul className="unordered_list justify-content-center">
-                                <li className={activeFilter === 'all' ? 'active' : ''} onClick={() => handleFilterClick('all')}>See All</li>
-                                <li className={activeFilter === 'technology' ? 'active' : ''} onClick={() => handleFilterClick('technology')}>Technology</li>
-                                <li className={activeFilter === 'helpdesk' ? 'active' : ''} onClick={() => handleFilterClick('helpdesk')}>Helpdesk</li>
-                                <li className={activeFilter === 'analysis' ? 'active' : ''} onClick={() => handleFilterClick('analysis')}>Analysis</li>
-                                <li className={activeFilter === 'marketing' ? 'active' : ''} onClick={() => handleFilterClick('marketing')}>Marketing</li>
+                                <li className={activeFilter === 'all' ? 'active' : ''} onClick={() => handleFilterClick('all')}>Все</li>
+                                <li className={activeFilter === 'technology' ? 'active' : ''} onClick={() => handleFilterClick('technology')}>Технологии</li>
+                                <li className={activeFilter === 'helpdesk' ? 'active' : ''} onClick={() => handleFilterClick('helpdesk')}>Служба поддержки</li>
+                                <li className={activeFilter === 'analysis' ? 'active' : ''} onClick={() => handleFilterClick('analysis')}>Анализ</li>
                             </ul>
                         </div>
                         <div className="filter_elements_wrapper row">

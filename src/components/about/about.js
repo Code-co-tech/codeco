@@ -29,14 +29,14 @@ const About = (props) => {
                         <div className="about_content">
                             <div className="heading_block">
                                 <div className="heading_focus_text">
-                                    We are 😃
-                                    <span className="badge bg-secondary text-white">Techco</span>
+                                    Мы 😃
+                                    <span className="badge bg-secondary text-white">Сodeco</span>
                                 </div>
                                 <h2 className="heading_text">
-                                    Our Commitment to Client Satisfaction
+                                    Наша приверженность удовлетворению клиентов
                                 </h2>
                                 <p className="heading_description mb-0">
-                                    At Techco, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
+                                    В Techco наша приверженность удовлетворению клиентов лежит в основе всего, что мы делаем. Мы понимаем, что успех клиентов — это наш успех.
                                 </p>
                             </div>
                             <ul className="icon_list unordered_list_block mb-5">

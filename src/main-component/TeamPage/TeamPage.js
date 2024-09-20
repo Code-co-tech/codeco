@@ -21,7 +21,7 @@ const TeamPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'Team Member'} pagesub={'Members 😍'} pageTop={'Team'} />
+                <PageTitle pageTitle={'Члены команды'} pagesub={'Члены 😍'} pageTop={'команды'} />
                 <section className="about_section section_space bg-light">
                     <div className="container">
                         <div className="row align-items-center justify-content-lg-between">
@@ -34,18 +34,18 @@ const TeamPage = (props) => {
                                 <div className="about_content">
                                     <div className="heading_block">
                                         <div className="heading_focus_text">
-                                            Our Dedicated
-                                            <span className="badge bg-secondary text-white">Team 🙂</span>
+                                            Наша преданная
+                                            <span className="badge bg-secondary text-white">команда 🙂</span>
                                         </div>
                                         <h2 className="heading_text">
-                                            Get to Know Our Expert Techco Team
+                                            Познакомьтесь с нашей экспертной командой Techco
                                         </h2>
                                         <p className="heading_description mb-0">
-                                            Get acquainted with the powerhouse behind Techco – our expert team of professionals dedicated to revolutionizing the IT landscape. Comprising.
+                                            Познакомьтесь с движущей силой Techco — нашей командой экспертов, преданных революционированию IT-ландшафта. В состав команды входят...
                                         </p>
                                     </div>
                                     <Link onClick={ClickHandler} to={'/team'} className="btn">
-                                        <span className="btn_label" data-text="Talk to an Expart">Talk to an Expart</span>
+                                        <span className="btn_label" data-text="Поговорите с экспертом">Поговорите с экспертом</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>
@@ -59,11 +59,11 @@ const TeamPage = (props) => {
                     <div className="container">
                         <div className="heading_block text-center">
                             <div className="heading_focus_text">
-                                <span className="badge bg-secondary text-white">Our Expert</span>
-                                Team Members 😍
+                                <span className="badge bg-secondary text-white">Наши Эксперты</span>
+                                Члены команды 😍
                             </div>
                             <h2 className="heading_text mb-0">
-                                Top Skilled Experts
+                                Высококвалифицированные эксперты
                             </h2>
                         </div>
 

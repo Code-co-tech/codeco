@@ -9,27 +9,27 @@ import sIcon6 from '../../images/icons/icon_microscope.svg'
 
 const Policy = [
     {
-        title: 'Quality Comes First',
+        title: 'Качество — на первом месте',
         icon: sIcon1,
     },
     {
-        title: 'Flexible Cooperation',
+        title: 'Гибкое сотрудничество',
         icon: sIcon2,
     },
     {
-        title: 'On-time Delivery',
+        title: 'Своевременная доставка',
         icon: sIcon3,
     },
     {
-        title: 'Transparent Costs',
+        title: 'Прозрачные цены',
         icon: sIcon4,
     },
     {
-        title: 'Qualified Developers',
+        title: 'Квалифицированные разработчики',
         icon: sIcon5,
     },
     {
-        title: 'Quick Scale-up',
+        title: 'Быстрое масштабирование',
         icon: sIcon6,
     },
 
@@ -45,18 +45,17 @@ const WhyUs = (props) => {
                 <div className="row align-items-center justify-content-lg-between">
                     <div className="col-lg-6">
                         <div className="image_wrap">
-                            <img src={wImg} alt="Techco - About"/>
+                            <img src={wImg} alt="Techco - About" />
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="ps-lg-5">
                             <div className="heading_block">
                                 <div className="heading_focus_text">
-                                    <span className="badge bg-secondary text-white">Why Us</span>
-                                    Better
+                                    <span className="badge bg-secondary text-white">Почему мы</span>
                                 </div>
                                 <h2 className="heading_text mb-0">
-                                    Why Our Services are Better Than Others?
+                                    Почему наши услуги лучше других?
                                 </h2>
                             </div>
                             <ul className="service_facilities_group unordered_list">

@@ -19,10 +19,10 @@ const ServiceSection = (props) => {
             <div className="container">
                 <div className="heading_block text-center">
                     <div className="heading_focus_text has_underline d-inline-flex" style={{ backgroundImage: `url(${Bg})` }}>
-                        Our Services
+                        Наши Сервисы
                     </div>
                     <h2 className="heading_text mb-0">
-                        How We Can <mark>Help</mark> You
+                        Как мы можем вам <mark>помочь</mark>
                     </h2>
                 </div>
 
@@ -58,19 +58,19 @@ const ServiceSection = (props) => {
             </div>
 
             <div className="decoration_item shape_image_1">
-                <img src={shape1} alt="Techco Shape"/>
+                <img src={shape1} alt="Techco Shape" />
             </div>
             <div className="decoration_item shape_image_2">
-                <img src={shape2} alt="Techco Shape"/>
+                <img src={shape2} alt="Techco Shape" />
             </div>
             <div className="decoration_item shape_image_3">
-                <img src={shape3} alt="Techco Shape"/>
+                <img src={shape3} alt="Techco Shape" />
             </div>
             <div className="decoration_item shape_image_4">
-                <img src={shape4} alt="Techco Shape Angle"/>
+                <img src={shape4} alt="Techco Shape Angle" />
             </div>
             <div className="decoration_item shape_image_5">
-                <img src={shape5} alt="Techco Shape Angle"/>
+                <img src={shape5} alt="Techco Shape Angle" />
             </div>
         </section>
     );
